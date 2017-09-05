@@ -6,8 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body onload="animation('demo')">
-    <div id="demo">w3resource</div>
+<body>
 </body>
-<script src="b-5.js"></script>
+<script>
+    var r = Math.floor(Math.random()*10);  // type: Number
+    var inp = window.prompt("Enter a number: ");  // type: String
+    if(r==inp)
+        alert("Good Work.");
+    else alert("Not matched.");
+</script>
 </html>

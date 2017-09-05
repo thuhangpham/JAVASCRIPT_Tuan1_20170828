@@ -15,10 +15,10 @@ if(h>12){
     h = h - 12;
     p = "PM";
 }
-if(m===0){
-    if(h===0 && s ===0)
+if(m===0 && s ===0){
+    if(h===0)
         p = "Midnight";
-    else if(h===12 && s === 0)
+    else if(h===12)
         p = "Noon";
 }
 console.log("Current time: "+h+" "+p+" : "+m+" : "+s);
